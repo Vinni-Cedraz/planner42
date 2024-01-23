@@ -21,7 +21,7 @@ int main()
 		printf("index: %d | arr[]: %d\n", i, arr[i]);
 		sum += arr[i];
 	}
-	printf("TEMPO TOTAL PARA TERMINARO CURSO: %d\n", sum);
+	printf("TEMPO TOTAL PARA TERMINAR O CURSO: %d\n", sum);
 
 }
 
