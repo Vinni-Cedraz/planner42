@@ -13,6 +13,15 @@ int main()
 		printf("12 - CPP\n13 - INCEPTION\n14 - WEBSERV/FT_IRC\n15 - TRANCENDENCE\n\n");
 
 	scanf("%d", &num);
+	int sum = 0;
+	int arr[14] = {70, 70, 70, 40, 60, 50, 60, 210, 70, 50, 280, 210, 175, 245};
+
+	for(int i=(num-1); i < 14; i++)
+	{
+		printf("index: %d | arr[]: %d\n", i, arr[i]);
+		sum += arr[i];
+	}
+	printf("TEMPO TOTAL PARA TERMINARO CURSO: %d\n", sum);
 
 }
 
