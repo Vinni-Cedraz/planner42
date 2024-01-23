@@ -27,10 +27,9 @@ int main()
 		sum += arr[i];
 	}
 	printf("TEMPO TOTAL PARA TERMINAR O CURSO: %.1f HORAS\n", sum);
-	printf("SE VOCE DEDICAR 3 HORAS POR DIA,  VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/3), (sum/3)/30);
-	printf("SE VOCE DEDICAR 6 HORAS POR DIA,  VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/6), (sum/3)/30);
-	printf("SE VOCE DEDICAR 8 HORAS POR DIA,  VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/8), (sum/3)/30);
-	printf("SE VOCE DEDICAR 10 HORAS POR DIA, VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/10), (sum/3)/30);
-
+	printf("Se voce dedicar 3 horas por dia, vai terminar o curso em %d dias ou %.1f meses\n",(int)(sum/3), (sum/3)/30);
+	printf("Se voce dedicar 6 horas por dia, vai terminar o curso em %d dias ou %.1f meses\n",(int)(sum/6), (sum/6)/30);
+	printf("Se voce dedicar 8 horas por dia, vai terminar o curso em %d dias ou %.1f meses\n",(int)(sum/8), (sum/8)/30);
+	printf("Se voce dedicar 10 horas por dia, vai terminar o curso em %d dias ou %.1f meses\n",(int)(sum/10), (sum/10)/30);
 }
 
