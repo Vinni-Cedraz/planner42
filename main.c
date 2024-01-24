@@ -18,19 +18,15 @@ int main()
 	scanf("%d", &num);
 	system("clear");
 	float sum = 0;
-	int arr[14] = {70, 70, 70, 40, 60, 50, 60, 210, 70, 50, 280, 210, 175, 245};
+	int arr[15] = {70, 70, 70, 40, 60, 50, 60, 210, 70, 50, 280, 210, 210, 175, 245};
 
-	for(int i=(num - 2); i < 14; i++)
-	{
-		if (i == -1)
-			i += 1;
+	for(int i=(num - 1); i < 15; i++)
 		sum += arr[i];
-	}
+
 	printf("TEMPO TOTAL PARA TERMINAR O CURSO: %.1f HORAS\n", sum);
-	printf("SE VOCE DEDICAR 3 HORAS POR DIA,  VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/3), (sum/3)/30);
-	printf("SE VOCE DEDICAR 6 HORAS POR DIA,  VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/6), (sum/3)/30);
-	printf("SE VOCE DEDICAR 8 HORAS POR DIA,  VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/8), (sum/3)/30);
-	printf("SE VOCE DEDICAR 10 HORAS POR DIA, VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/10), (sum/3)/30);
+	printf("SE VOCE DEDICAR 3 HORAS POR DIA, VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/3), (sum/3)/30);
+	printf("SE VOCE DEDICAR 6 HORAS POR DIA, VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/6), (sum/6)/30);
+	printf("SE VOCE DEDICAR 8 HORAS POR DIA, VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/8), (sum/8)/30);
+	printf("SE VOCE DEDICAR 10 HORAS POR DIA, VAI TERMINAR O CURSO EM %.1f DIAS OU %.1f MESES\n", (sum/10), (sum/10)/30);
 
 }
-
